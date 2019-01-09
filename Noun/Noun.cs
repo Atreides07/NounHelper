@@ -12,14 +12,14 @@
         /// <returns></returns>
         public static string GetDeclension(int number, string nominativ, string genetiv, string plural)
         {
-            number = number % 100;
-            if (number >= 11 && number <= 19)
+            var lastTwoNumber = number % 100;
+            if (lastTwoNumber >= 11 && lastTwoNumber <= 19)
             {
                 return plural;
             }
 
-            var i = number % 10;
-            switch (i)
+            var lastNumber = number % 10;
+            switch (lastNumber)
             {
                 case 1:
                     return nominativ;
