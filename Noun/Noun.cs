@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace NounHelper
+﻿namespace Noun
 {
     public static class NounHelper
     {

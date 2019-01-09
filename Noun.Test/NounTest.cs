@@ -37,7 +37,7 @@ namespace NounHelper.Test
             var f1 = "источник";
             var f2 = "источника";
 
-            var actual = NounHelper.GetDeclension(number, f1, f2, f0);
+            var actual = Noun.NounHelper.GetDeclension(number, f1, f2, f0);
             Assert.Equal(expected, actual);
         }
     }
