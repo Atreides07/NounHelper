@@ -2,7 +2,7 @@
 
 namespace NounHelper
 {
-    public static class Noun
+    public static class NounHelper
     {
         /// <summary>
         /// Возвращает слова в падеже, зависимом от заданного числа 
